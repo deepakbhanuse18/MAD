@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cell1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="@string/cell_1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cell2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="@string/cell_2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cell3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="@string/cell_3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cell4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="@string/cell_4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cell5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Full Width Cell"
+        android:textSize="20sp" />
+
+</GridLayout>
